@@ -1,4 +1,4 @@
-# Influenza-like illness in United State Of America | Big Data Analytics
+# Influenza-like illness in the United State Of America | Big Data Analytics
 
 Welcome to the Influenza-like Illness Analytics System, a powerful tool designed to analyze and visualize data related to Influenza-like Illness (ILI) in the United States of America through the lens of Big Data Analytics. This sophisticated system provides valuable insights into the prevalence, trends, and predictions surrounding ILI, leveraging a data-driven approach to enhance our understanding of this public health concern.
 
