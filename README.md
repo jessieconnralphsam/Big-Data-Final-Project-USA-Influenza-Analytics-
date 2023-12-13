@@ -4,64 +4,66 @@ Welcome to the Influenza-like Illness Analytics System, a powerful tool designed
 
 link: https://jessieconnralphsam.github.io/usa_influenza_analytics/
 
-Overview
+**Overview**
+
 The Influenza-like Illness (ILI) dataset provides information on reported cases of ILI across different regions, focusing on key metrics such as patient visits, ILI counts, and percentages. This documentation aims to guide users through understanding the structure and attributes of the dataset.
 
-Dataset Attributes
+**Dataset Attributes**
 
-Index
+**Index**
 
 Description: A unique identifier for each record in the dataset.
 
 Data Type: Integer
 
-Release_Week
+**Release_Week**
 
 Description: The week during which the data was released.
 Data Type: Integer
-Region:
+
+**Region**
 
 Description: The geographical region for which ILI data is reported.
 
 Data Type: Categorical (String)
 
-Week
+**Week**
 
 Description: The specific week during which ILI data was recorded.
 
 Data Type: Integer
 
-Sites_Reporting
+**Sites_Reporting**
 
 Description: The number of reporting sites contributing data for the specified week.
 
 Data Type: Integer
 
-Total_Patient_Visits
+**Total_Patient_Visits**
 
 Description: The total number of patient visits reported for the given week.
 
 Data Type: Integer
 
-Total_ILI
+**Total_ILI**
 
 Description: The total count of Influenza-like Illness cases for the specified week.
 
 Data Type: Integer
 
-Perc_Unweighted_ILI
+**Perc_Unweighted_ILI**
 
 Description: The percentage of Unweighted ILI cases, representing the proportion of ILI cases to total patient visits.
 
 Data Type: Float
 
-Perc_Weighted_ILI
+**Perc_Weighted_ILI**
 
 Description: The percentage of Weighted ILI cases, considering a weighted factor for more accurate representation.
 
 Data Type: Float
 
-Sample Records
+**Sample Records**
 
 | Index | Release_Week | Region   | Week   | Sites_Reporting | Total_Patient_Visits | Total_ILI | Perc_Unweighted_ILI | Perc_Weighted_ILI |
 |-------|--------------|----------|--------|------------------|----------------------|-----------|----------------------|-------------------|
@@ -74,7 +76,7 @@ Sample Records
 
 
 
-Note:
+**Note:**
 The dataset is organized chronologically based on the release week.
 Users are encouraged to refer to the README file for additional context and any updates related to the dataset.
 For more information on the calculation of some attributes.
