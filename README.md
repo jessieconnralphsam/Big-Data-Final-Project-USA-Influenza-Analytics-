@@ -66,7 +66,7 @@ Q: Is it possible to use my own dataset with the system?<br>
 A: The Influenza-like Illness Analytics System is primarily designed to analyze and visualize data related to Influenza-like Illness (ILI). While the system is specialized for ILI analytics, you may still have the option to explore using your dataset. However, using datasets related explicitly to influenza-like illness is recommended for optimal results and accurate and meaningful insights. Please ensure that your dataset aligns with the intended purpose of the system. <br>
 
 Q: How accurate are the predictions in the "Predictions" section?<br>
-A: The accuracy of predictions depends on the quality and relevance of the input data. Make sure to input accurate and relevant information for more reliable predictions.<br>
+A: The accuracy of predictions depends on the quality and relevance of the training data. Make sure the training data accurate and relevant information for more reliable predictions.<br>
 Q: I found a bug. How can I report it?<br>
 A: Please report any bugs or issues by creating a new issue in the GitHub repository. Be sure to provide detailed information about the problem and steps to reproduce it.<br>
 Q: Is there a user guide available for the system?<br>

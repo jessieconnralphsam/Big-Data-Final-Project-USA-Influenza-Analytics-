@@ -1,0 +1,38 @@
+Input and Output:
+
+The neural network is trained to predict a continuous numerical value (ILI Cases, presumably Influenza-Like Illness Cases) based on input features.
+
+Loss Function:
+
+The loss function used during training is Mean Squared Error ('meanSquaredError'), which is a common loss function for regression problems. It measures the average squared difference between the predicted values and the actual values.
+
+Output Layer:
+
+The neural network's output layer has one unit, indicating that it produces a single continuous output.
+
+Evaluation Metrics:
+
+Metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared are calculated for evaluating the performance of the regression model.
+
+
+Regression is suitable for this data because the goal is to predict a continuous numerical value, specifically the number of Influenza-Like Illness (ILI) cases. Here are some reasons why regression is a fitting choice for this type of prediction task:
+
+Continuous Output: 
+
+The target variable (ILI cases) is a continuous numerical value. Regression models are designed to predict such continuous outputs, making them well-suited for tasks where the goal is to estimate or predict a quantity.
+
+Relationship between Features and Target: 
+
+Regression models assume that there is some functional relationship between the input features and the target variable. In this case, the neural network is trained to learn patterns and relationships within the input data that can be used to predict the continuous output (ILI cases).
+
+Mean Squared Error as Loss Function: 
+
+The use of Mean Squared Error (MSE) as the loss function during training is a characteristic of regression problems. MSE measures the average squared difference between the predicted values and the actual values. Minimizing MSE encourages the model to make predictions that are close to the actual values, which is appropriate for regression.
+
+Quantitative Prediction: 
+
+The nature of the problem suggests that the goal is to provide a quantitative prediction of the number of ILI cases. Regression models are designed to provide such quantitative estimates, and the model's output represents a numerical prediction.
+
+Evaluation Metrics: 
+
+The use of metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared for evaluation further supports the regression nature of the problem. These metrics are commonly used in regression tasks to assess the accuracy and performance of the model's predictions.
