@@ -16,22 +16,11 @@ Description: A unique identifier for each record in the dataset.
 
 Data Type: Integer
 
-**Release_Week**
-
-Description: The week during which the data was released.
-Data Type: Integer
-
 **Region**
 
 Description: The geographical region for which ILI data is reported.
 
 Data Type: Categorical (String)
-
-**Week**
-
-Description: The specific week during which ILI data was recorded.
-
-Data Type: Integer
 
 **Sites_Reporting**
 
@@ -51,28 +40,16 @@ Description: The total count of Influenza-like Illness cases for the specified w
 
 Data Type: Integer
 
-**Perc_Unweighted_ILI**
-
-Description: The percentage of Unweighted ILI cases, representing the proportion of ILI cases to total patient visits.
-
-Data Type: Float
-
-**Perc_Weighted_ILI**
-
-Description: The percentage of Weighted ILI cases, considering a weighted factor for more accurate representation.
-
-Data Type: Float
-
 **Sample Records**
 
-| Index | Release_Week | Region   | Week   | Sites_Reporting | Total_Patient_Visits | Total_ILI | Perc_Unweighted_ILI | Perc_Weighted_ILI |
-|-------|--------------|----------|--------|------------------|----------------------|-----------|----------------------|-------------------|
-| 0     | 949          | Region 1 | 200935 | 96               | 64093                | 257       | 0.401                | 0.62755           |
-| 1     | 949          | Region 1 | 200936 | 96               | 53552                | 265       | 0.4948               | 0.83766           |
-| 2     | 949          | Region 1 | 200937 | 99               | 73590                | 478       | 0.6495               | 1.04911           |
-| 3     | 949          | Region 1 | 200938 | 101              | 76099                | 622       | 0.8174               | 1.06889           |
-| 4     | 949          | Region 1 | 200939 | 102              | 73743                | 614       | 0.8326               | 1.16454           |
-| 5     | 949          | Region 1 | 200940 | 131              | 39576                | 664       | 1.6778               | 1.67598           |
+| Index | Region   | Sites_Reporting | Total_Patient_Visits | Total_ILI | 
+|-------|----------|------------------|----------------------|-----------|
+| 0     | Region 1 | 96               | 64093                | 257       | 
+| 1     | Region 1 | 96               | 53552                | 265       |
+| 2     | Region 1 | 99               | 73590                | 478       |
+| 3     | Region 1 | 101              | 76099                | 622       |
+| 4     | Region 1 | 102              | 73743                | 614       | 
+| 5     | Region 1 | 131              | 39576                | 664       |
 
 
 

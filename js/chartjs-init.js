@@ -64,7 +64,7 @@ document.getElementById('fileInput').addEventListener('change', function() {
 
                 
                 console.log('Data Not Removed:', uniqueData.length);
-                document.getElementById('dataNotRemoved').innerHTML = '<span style="color: gray;">Clean Data: </span><span style="color: blue;">' + uniqueData.length + '</span>';
+                document.getElementById('dataNotRemoved').innerHTML = '<span style="color: gray;">Cleaned Data: </span><span style="color: blue;">' + uniqueData.length + '</span>';
 
                 
                 var aggregatedData = aggregateData(uniqueData);
