@@ -45,7 +45,7 @@ function makePrediction() {
                 loadingDiv.style.display = 'none';
 
                 const metricsDiv = document.getElementById('metrics');
-                metricsDiv.innerHTML = '<h5>Model Metrics:</h5>';
+                metricsDiv.innerHTML = '<h5>Evaluation Metrics:</h5>';
                 metricsDiv.innerHTML += '<p>Mean Absolute Error (MAE): ' + mae + '</p>';
                 metricsDiv.innerHTML += '<p>Mean Squared Error (MSE): ' + mse + '</p>';
                 metricsDiv.innerHTML += '<p>Root Mean Squared Error (RMSE): ' + rmse + '</p>';

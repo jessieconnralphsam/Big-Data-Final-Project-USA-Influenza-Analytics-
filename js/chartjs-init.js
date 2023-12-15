@@ -411,7 +411,7 @@ function calculateStandardDeviation(array) {
             defaultFontFamily: 'Montserrat',
             datasets: [ {
                 label: "Total ILI Cases",
-                data: averageili,
+                data: averagepatvist,
                 backgroundColor: 'transparent',
                 borderColor: 'rgba(220,53,69,0.75)',
                 borderWidth: 3,
@@ -421,7 +421,7 @@ function calculateStandardDeviation(array) {
                 pointBackgroundColor: 'rgba(220,53,69,0.75)',
                     }, {
                 label: "Average Patient Visits",
-                data: averagepatvist,
+                data: averageili, 
                 backgroundColor: 'transparent',
                 borderColor: 'rgba(40,167,69,0.75)',
                 borderWidth: 3,
